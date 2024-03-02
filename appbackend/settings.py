@@ -92,9 +92,9 @@ DATABASES = {
         'ENGINE': 'djongo',
         'CLIENT': {
            "name":"enjoyDb",
-           "host": "mongodb+srv://ameen:"+urllib.parse.quote_plus("djangoreactnativebackend123")+"@app-cluster.xjmssce.mongodb.net/enjoyDb?ssl=true&ssl_cert_reqs=CERT_NONE&retryWrites=true&w=majority",
+           "host": "",
            "username": "ameen",
-           "password": "djangoreactnativebackend123",
+           "password": "",
            "authMechanism": "SCRAM-SHA-1",
         }, 
     }
